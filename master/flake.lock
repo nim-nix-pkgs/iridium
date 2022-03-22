@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-iridium-master": "src-iridium-master"
+      }
+    },
+    "src-iridium-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1607883256,
+        "narHash": "sha256-tONrEN8GYdwCOraaQ8ng865ftbN+r3+hMOPbtuz5C1E=",
+        "owner": "KingDarBoja",
+        "repo": "Iridium",
+        "rev": "02d858ada126b0ad2c3dc73ad81104713ac8f6a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "KingDarBoja",
+        "ref": "refs/heads/master",
+        "repo": "Iridium",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
