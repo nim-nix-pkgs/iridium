@@ -9,7 +9,7 @@
   
   inputs.src-iridium-v0_2_0.flake = false;
   inputs.src-iridium-v0_2_0.owner = "KingDarBoja";
-  inputs.src-iridium-v0_2_0.ref   = "refs/tags/v0.2.0";
+  inputs.src-iridium-v0_2_0.ref   = "v0_2_0";
   inputs.src-iridium-v0_2_0.repo  = "Iridium";
   inputs.src-iridium-v0_2_0.type  = "github";
   
