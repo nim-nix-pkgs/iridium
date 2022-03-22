@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-iridium-master.flake = false;
+  inputs.src-iridium-master.ref   = "refs/heads/master";
   inputs.src-iridium-master.owner = "KingDarBoja";
-  inputs.src-iridium-master.ref   = "master";
   inputs.src-iridium-master.repo  = "Iridium";
   inputs.src-iridium-master.type  = "github";
   
