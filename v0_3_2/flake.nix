@@ -17,10 +17,13 @@
   let 
     lib  = flakeNimbleLib.lib;
     args = ["self" "nixpkgs" "flakeNimbleLib" "src-iridium-v0_3_2"];
-  in lib.mkRefOutput {
+    over = if builtins.pathExists ./override.nix 
+           then { override = import ./override.nix; }
+           else { };
+  in lib.mkRefOutput (over // {
     inherit self nixpkgs ;
     src  = deps."src-iridium-v0_3_2";
     deps = builtins.removeAttrs deps args;
     meta = builtins.fromJSON (builtins.readFile ./meta.json);
-  };
+  } );
 }
