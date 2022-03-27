@@ -11,6 +11,7 @@
   inputs.src-iridium-master.ref   = "refs/heads/master";
   inputs.src-iridium-master.owner = "KingDarBoja";
   inputs.src-iridium-master.repo  = "Iridium";
+  inputs.src-iridium-master.dir   = "";
   inputs.src-iridium-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
