@@ -11,7 +11,6 @@
   inputs.src-Iridium-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-Iridium-v0_1_0.owner = "KingDarBoja";
   inputs.src-Iridium-v0_1_0.repo  = "Iridium";
-  inputs.src-Iridium-v0_1_0.dir   = "";
   inputs.src-Iridium-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
