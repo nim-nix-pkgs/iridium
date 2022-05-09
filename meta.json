@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://github.com/KingDarBoja/Iridium",
   "refs": [
-    "fatal: unable to access 'https://github.com/KingDarBoja/Iridium/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/KingDarBoja/Iridium/': Failed to connect to github.com port 443 after 136589 ms: Connection timed out",
     ""
   ],
   "heads": []
