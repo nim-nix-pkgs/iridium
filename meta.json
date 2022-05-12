@@ -2,13 +2,191 @@
   "name": "iridium",
   "url": "https://github.com/KingDarBoja/Iridium",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "Iridium",
+      "version": "0.1.0",
+      "author": "KingDarBoja",
+      "desc": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.2.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.2.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.1.0"
+    },
+    {
+      "name": "Iridium",
+      "version": "0.2.0",
+      "author": "KingDarBoja",
+      "desc": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.2.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.2.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.2.0"
+    },
+    {
+      "name": "iridium",
+      "version": "0.3.0",
+      "author": "KingDarBoja",
+      "desc": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.2.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.2.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.0"
+    },
+    {
+      "name": "iridium",
+      "version": "0.3.1",
+      "author": "KingDarBoja",
+      "desc": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [
+        "data"
+      ],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.2.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.2.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.1"
+    },
+    {
+      "name": "iridium",
+      "version": "0.3.2",
+      "author": "KingDarBoja",
+      "desc": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.2.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.2.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v0.3.2"
+    }
+  ],
   "description": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
   "license": "MIT",
   "web": "https://github.com/KingDarBoja/Iridium",
   "refs": [
-    "fatal: unable to access 'https://github.com/KingDarBoja/Iridium/': Failed to connect to github.com port 443 after 136589 ms: Connection timed out",
+    "refs/heads/data/iso-3166-1-2020-03-02",
+    "refs/heads/master",
+    "refs/tags/v0.1.0",
+    "refs/tags/v0.2.0",
+    "refs/tags/v0.3.0",
+    "refs/tags/v0.3.1",
+    "refs/tags/v0.3.2",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "iridium",
+      "version": "0.3.2",
+      "author": "KingDarBoja",
+      "desc": "The International Standard for country codes and codes for their subdivisions on Nim (ISO-3166)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.2.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.2.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
